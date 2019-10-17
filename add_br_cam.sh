@@ -1,4 +1,5 @@
 # init networks
+# edit NET_NAMES to your network name
 NET_NAMES=(enp6s0 enp7s0 enp8s0)
 brctl addbr brcam
 for NET_NAME in ${NET_NAMES[@]}
